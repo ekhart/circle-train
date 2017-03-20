@@ -1,0 +1,986 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"spawn",
+				"spawn_gold_density"
+			],
+			[
+				"spawn_gol",
+				"spawn_gold_density_acc"
+			],
+			[
+				"spaw",
+				"spawn_enemy_density"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"be",
+				"beginend\t$1.begin(), $1.end()"
+			],
+			[
+				"is_s",
+				"is_swiped"
+			],
+			[
+				"is_",
+				"is_swiped"
+			],
+			[
+				"act",
+				"action"
+			],
+			[
+				"rea",
+				"release_input_focus"
+			],
+			[
+				"ac",
+				"action.x"
+			],
+			[
+				"rel",
+				"release_input_focus"
+			],
+			[
+				"is",
+				"is_swipe"
+			],
+			[
+				"os",
+				"ostream"
+			],
+			[
+				"ope",
+				"operator"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"int",
+				"int_at"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"comm",
+				"command"
+			],
+			[
+				"on",
+				"on_message"
+			],
+			[
+				"load",
+				"loader"
+			],
+			[
+				"star",
+				"start_game"
+			],
+			[
+				"contr",
+				"controller#script"
+			],
+			[
+				"loa",
+				"loader"
+			],
+			[
+				"hu",
+				"hud.init"
+			],
+			[
+				"pl",
+				"player.init"
+			],
+			[
+				"mess",
+				"message_id"
+			],
+			[
+				"loc",
+				"local"
+			],
+			[
+				"lo",
+				"local"
+			],
+			[
+				"el",
+				"elseif"
+			],
+			[
+				"for",
+				"fori\tfor i,v in ipairs()"
+			],
+			[
+				"upd",
+				"update_time"
+			],
+			[
+				"loca",
+				"local"
+			],
+			[
+				"add_",
+				"add_speed"
+			],
+			[
+				"set",
+				"set_speed"
+			],
+			[
+				"spee",
+				"speed_up_every_seconds"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"time",
+				"time_from_start"
+			],
+			[
+				"fun",
+				"function\tfunction"
+			],
+			[
+				"func",
+				"function\tfunction"
+			],
+			[
+				"sen",
+				"sender"
+			],
+			[
+				"uri",
+				"uris"
+			],
+			[
+				"scr",
+				"screen_width"
+			],
+			[
+				"screen_",
+				"screen_height"
+			],
+			[
+				"pos",
+				"pos_change"
+			],
+			[
+				"clip",
+				"clipboard"
+			],
+			[
+				"msg",
+				"MsgBox"
+			],
+			[
+				"coi",
+				"coins"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"crea",
+				"create_coins"
+			],
+			[
+				"posi",
+				"position.y"
+			],
+			[
+				"con",
+				"controller#script"
+			],
+			[
+				"control",
+				"controller#script"
+			],
+			[
+				"contro",
+				"controlclick"
+			],
+			[
+				"mes",
+				"message_id"
+			],
+			[
+				"vma",
+				"vmath.vector3"
+			],
+			[
+				"ve",
+				"vector"
+			],
+			[
+				"play",
+				"play_animation"
+			],
+			[
+				"plat",
+				"platform_heights"
+			],
+			[
+				"cur",
+				"cur_id"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"abo",
+				"abort_jump"
+			],
+			[
+				"jum",
+				"jump_takeoff_speed"
+			],
+			[
+				"norm",
+				"normal"
+			],
+			[
+				"gr",
+				"gravity"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"scl",
+				"scale_x"
+			],
+			[
+				"last",
+				"last_x"
+			],
+			[
+				"sear",
+				"search_tiles_poss"
+			],
+			[
+				"tile",
+				"tile_pos"
+			],
+			[
+				"left",
+				"left_pos"
+			],
+			[
+				"lef",
+				"left_pos"
+			],
+			[
+				"get",
+				"get_pos"
+			],
+			[
+				"bal",
+				"ball_pos"
+			],
+			[
+				"rig",
+				"right_rect"
+			],
+			[
+				"ball",
+				"ball_pos"
+			],
+			[
+				"get_",
+				"get_node"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"reve",
+				"reverse_filename"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "ja",
+		"selected_items":
+		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lu",
+				"Set Syntax: Lua"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"diff",
+				"Git: Diff All Files"
+			],
+			[
+				"unity",
+				"SublimeREPL: Clojure Unity"
+			],
+			[
+				"repl cloj",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"clojure",
+				"Set Syntax: Clojure (Unity)"
+			],
+			[
+				"Unity",
+				"SublimeREPL: Clojure Unity"
+			],
+			[
+				"set syntax cloj",
+				"Set Syntax: Clojure (Unity)"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snipppe",
+				"Snippet: printf …"
+			],
+			[
+				"m",
+				"Snippet: main()"
+			],
+			[
+				"outpu",
+				"AutoHotkey - Run As Piped Buffer"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"didff",
+				"Git: Diff Staged Files"
+			],
+			[
+				"git diff",
+				"Git: Diff All Files"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"autoho",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"godot",
+				"Set Syntax: GDScript (Godot Engine)"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"cloju",
+				"Set Syntax: Clojure"
+			],
+			[
+				"aps",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"asp",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 419.0,
+		"history":
+		[
+			"git s",
+			"import urllib.request,os,hashlib; h = '261dd1222b4693ce6d4f85f9c827ac06' + '6d5ab8ebdd020086947172a8a1356bb6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/code/unity/circle-train"
+	],
+	"file_history":
+	[
+		"/C/Users/Ekh/Downloads/League-of-Angels-2-Hack-Cheat-Codes/Read Me !.txt",
+		"/C/Users/Ekh/Dysk Google/Texpand Backup - 2017-03-14 22 46.txt",
+		"/C/Users/Ekh/.emacs.d/elpa/cider-0.14.0/cider.el",
+		"/E/code/clojure/command-line-args/project.clj",
+		"/C/Users/Ekh/.emacs.d/init.el",
+		"/C/Users/Ekh/Dysk Google/inz/ct_preprocessing/.git/config",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/game_objects/player/player.script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/level/controller.script",
+		"/C/Users/Ekh/Evernote/Databases/Attachments/insight_timer_journal.txt",
+		"/C/Users/Ekh/Evernote/Databases/Attachments/fail.log",
+		"/C/Users/Ekh/Downloads/openssl-0.9.8k_X64/bin/generated/key.pem",
+		"/C/Users/Ekh/Downloads/openssl-0.9.8k_X64/bin/generated/certificate.pem",
+		"/C/Users/Ekh/Downloads/openssl-0.9.8k_X64/bin/key.pk8",
+		"/E/pro/Defold/branches/52912/32145/main/build/default/main/main_generated_0.go",
+		"/C/Users/Ekh/Downloads/fail.log",
+		"/E/pro/Defold/workspace/Freeway 68/.settings/org.eclipse.core.resources.prefs",
+		"/E/pro/Defold/workspace/Freeway 68/.project",
+		"/E/pro/Defold/branches/52912/32145/main/game.project",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/assets/utils.lua",
+		"/C/Users/Ekh/Desktop/Freeway 68/AndroidManifest.xml",
+		"/C/Users/Ekh/Downloads/openssl-0.9.8k_X64/bin/request.pem",
+		"/C/Users/Ekh/Downloads/openssl-0.9.8k_X64/bin/key.pem",
+		"/C/Users/Ekh/Downloads/openssl-0.9.8k_X64/bin/certificate.pem",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/Sets-STL/Sets-STL.cpp",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/Sets-STL/stdin.txt",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/Sets-STL.cpp",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/Nowy folder/Maps-STL.cpp",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/stdin.txt",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/Maps-STL.cpp",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/game_objects/ground/ground.script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/game_objects/player/player.go",
+		"/C/Users/Ekh/Downloads/porównanie clojure vs csharp.txt",
+		"/C/Users/Ekh/Downloads/dev.log",
+		"/E/pro/Android/sdk/platform-tools/log.log",
+		"/C/Users/Ekh/AppData/Roaming/freeway68/my_file",
+		"/C/Users/Ekh/Downloads/SuperSpartyBrosAssets/Editor/GameManagerEditor.cs",
+		"/C/Users/Ekh/Downloads/SuperSpartyBrosAssets/Editor/DeleteAllPlayerPrefs.cs",
+		"/E/work/zani/letshavefun.pl/kupione/11_love_muffin_pick - Kopia.txt",
+		"/E/work/zani/letshavefun.pl/kupione/12_love_muffin_pick.txt",
+		"/E/work/zani/letshavefun.pl/kupione/13_spinacze.txt",
+		"/E/work/zani/letshavefun.pl/kupione/6_Torebka_smile.txt",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/game_objects/enemy/enemy.script",
+		"/C/Users/Ekh/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/Clojure/Unity/repl.js",
+		"/E/work/zani/letshavefun.pl/kupione/4_paris_muffin_pick.txt",
+		"/E/work/zani/letshavefun.pl/kupione/3_niezniszczalna_butelka.txt",
+		"/E/work/zani/letshavefun.pl/kupione/2_bottle_bear.txt",
+		"/E/work/zani/letshavefun.pl/kupione/1_serwetki.txt",
+		"/E/work/zani/letshavefun.pl/kupione/5_zarowka.txt",
+		"/E/work/zani/letshavefun.pl/kupione/7_gift_bag.txt",
+		"/E/work/zani/letshavefun.pl/kupione/9_girlandaHp.txt",
+		"/E/work/zani/letshavefun.pl/kupione/10_waterdetox.txt",
+		"/C/Users/Ekh/Dysk Google/code/Python/hackerrank/Nested Lists2.py",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/Overload Operators.cpp",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/C++ Class Templates.cpp",
+		"/C/Users/Ekh/Dysk Google/code/c++/hackerrank/Inherited Code.cpp",
+		"/C/Users/Ekh/Dysk Google/code/Python/hackerrank/Nested Lists.py",
+		"/C/Users/Ekh/Dysk Google/code/c#/MK/GetMailsFromWord/GetMailsFromWord/bin/Debug/maile-po-850.txt",
+		"/C/Users/Ekh/Dysk Google/code/c#/MK/GetMailsFromWord/GetMailsFromWord/bin/Debug/maile-babek.txt",
+		"/C/Users/Ekh/Dysk Google/code/c#/MK/GetMailsFromWord/GetMailsFromWord/bin/Debug/all-mail-w-jednej-linii.txt",
+		"/C/Users/Ekh/Evernote/Logs/AppLog_2017-02-24.txt",
+		"/C/Users/Ekh/AppData/Local/Unity/Editor/Editor.log",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/main/loader.script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/hud/level/hud.gui_script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/hud/main/hud.gui_script",
+		"/C/Users/Ekh/AppData/Local/Temp/WPDNSE/{0003097C-0001-0001-0000-000000000000}/sleep-export.csv",
+		"/C/Users/Ekh/Dysk Google/code/ruby/get_otomoto/allegro.rb",
+		"/C/Users/Ekh/Dysk Google/code/ruby/letshavefun.pl/import_products.rb",
+		"/C/Users/Ekh/Downloads/report-7day-2017-02-20.csv",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/hud/hud.gui_script",
+		"/C/Users/Ekh/Dysk Google/code/autohotkey/best.ahk",
+		"/E/code/unity/Box Shooter/Assets/Scripts/SpawnGameObjects.cs",
+		"/E/code/unity/RollerMadness/Assets/Scripts/Chaser.cs",
+		"/C/Users/Ekh/Downloads/wrocław.csv",
+		"/C/Users/Ekh/Documents/git/warsaw_gamejam/.gitignore",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/enemy/enemy.script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/ground/ground.script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/controller.script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/main/main.collection",
+		"/C/Users/Ekh/Downloads/ffmpeg-1.vdprof",
+		"/C/Users/Ekh/AppData/Local/Temp/_tc/wp-config.000.php",
+		"/C/Users/Ekh/AppData/Local/Temp/_tc/wp-config.php",
+		"/C/Users/Ekh/Downloads/wordpress/wordpress/wp-config-sample.php",
+		"/C/Users/Ekh/AppData/Local/Temp/_tc/SpaceShooter.html",
+		"/C/Users/Ekh/Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/setup.ini",
+		"/E/work/web pages/dyrdymalki/wp-load.php",
+		"/C/Users/Ekh/Downloads/upc.txt",
+		"/C/Users/Ekh/Downloads/controller.script",
+		"/C/Users/Ekh/Downloads/Dyrdymalki - Arkusz1.csv",
+		"/E/work/zani/Dyrdymalki - Arkusz1.csv",
+		"/E/pro/Defold/branches/52912/32145/main/level/controller.script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/car/car.script",
+		"/C/Users/Ekh/Downloads/Field resource not specified in table.log",
+		"/C/Users/Ekh/Downloads/could not load.log",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/hud.gui_script",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/loader.script",
+		"/C/Users/Ekh/Dysk Google/code/ruby/letshavefun.pl/error.log",
+		"/C/Users/Ekh/Downloads/woocommerce-pl_PL.po",
+		"/C/Users/Ekh/Downloads/woocommerce-pl_PL.mo",
+		"/C/Users/Ekh/Evernote/Databases/Attachments/wp-config.php",
+		"/C/Users/Ekh/Downloads/bluefres_dyrdymalki.sql",
+		"/C/Users/Ekh/Downloads/RollerMadness/WebGL/Release/UnityLoader.js",
+		"/C/Users/Ekh/Downloads/RollerMadness/WebGL/TemplateData/UnityProgress.js",
+		"/E/code/unity/RollerMadness/.gitignore",
+		"/E/pro/Python27/Lib/multiprocessing/__init__.py",
+		"/D/Unity 5.5.1f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/tools/shared.py",
+		"/D/Unity 5.5.1f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emcc.py",
+		"/D/Unity 5.5.1f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/em++",
+		"/C/Users/Ekh/Downloads/log.log",
+		"/E/pro/Python27/README.txt",
+		"/E/pro/Python27/NEWS.txt",
+		"/E/pro/Python27/LICENSE.txt",
+		"/E/pro/Python27/Lib/multiprocessing/process.py",
+		"/D/Unity 5.5.1f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js",
+		"/E/code/unity/RollerMadness/Temp/StagingArea/Data/preserved_derived_types.xml",
+		"/E/code/unity/RollerMadness/Temp/StagingArea/Data/methods_pointedto_by_uievents.xml",
+		"/E/code/unity/RollerMadness/Temp/StagingArea/Data/il2cppOutput/Assembly-CSharp-firstpass_ArrayTypes.h",
+		"/E/work/zani/Finanse i Bankowość/odpowiedzi/słowaklucz.txt",
+		"/E/work/zani/Finanse i Bankowość/24.04.16/odp/słowaklucz.txt",
+		"/E/pro/Defold/branches/52912/32145/main/vertical/background/background.script",
+		"/D/Unity 5.5.0f3/Editor/Data/il2cpp/Il2CppSetOptionAttribute.cs",
+		"/D/Unity 5.5.0f3/Editor/Data/il2cpp/il2cpp_root",
+		"/D/Unity 5.5.0f3/Editor/Data/il2cpp/il2cpp_default_extra_types.txt",
+		"/C/Users/Ekh/Evernote/Databases/Attachments/subtitles (1).vtt",
+		"/E/pro/Defold/branches/52912/32145/vertical/vertical/car/car.script",
+		"/E/pro/Defold/branches/52912/32145/vertical/vertical/car/car.go",
+		"/C/Users/Ekh/Downloads/wp-config.php",
+		"/C/Users/Ekh/Downloads/wp-settings.php",
+		"/C/Users/Ekh/Downloads/bluefres_letshavefun.sql"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"goope",
+			"crash_text",
+			"check_display_half",
+			"change_road_duration",
+			"get",
+			"is_swipe",
+			"utils",
+			"disable",
+			"is_swipe",
+			"on_touch_input",
+			"move_car",
+			"move_horizontal",
+			"freeway",
+			"pop",
+			"())\n",
+			"print",
+			"append",
+			"print",
+			"remove",
+			"print",
+			"remove",
+			"append",
+			"insert",
+			"print",
+			"iotre",
+			"set_scale",
+			"move_horizontal",
+			"\"load\"",
+			"post_levelproxy",
+			"proxy",
+			"restart_gamestart",
+			"acquire_input_focus",
+			"release_input_focus",
+			"message_id",
+			"post_gui",
+			"hud",
+			"post_curret",
+			"main:/hud#gui",
+			"\"main:/hud#gui",
+			"http://.*",
+			"spawn_density",
+			"spawn_probability",
+			"spawn_density",
+			")\n",
+			"grid",
+			"http://.*",
+			"move_horizontal",
+			"move_car",
+			"self.enemies",
+			"speed",
+			"spawns",
+			"speed_up_every_seconds",
+			"speed_divide",
+			"start_time",
+			"get_cena",
+			"get_allegro_auto_info",
+			"get_auto_info",
+			"write_rows",
+			"write_header",
+			"time_now",
+			"cart",
+			"GET",
+			"dyrdymalki.pl",
+			"current_process",
+			"dyrdymalki",
+			"dyrdymalki.pl",
+			"set_speed",
+			"^!v",
+			"msg.post(p, \"set_speed\", { speed = self.speed })",
+			"vector",
+			"gravity",
+			"?>",
+			"setHideCookie",
+			"setTempHideCookie",
+			"templateDirTemp",
+			"yith_newsletter_popup_base_temp_hide",
+			"yith_newsletter_popup_base",
+			"now",
+			"date",
+			"templateDir",
+			"yith_newsletter_popup_base",
+			"hide-popup",
+			"hide-popup-yithpopup",
+			"hide-popup",
+			"hide-popup-yithpopup",
+			"yith-newsletter-popup-muta-hide-popup-yithpopup",
+			"yith_popup",
+			"#yith-popup-message",
+			"_center",
+			"yithpopup_wrapper",
+			"style",
+			"yith-popup",
+			"yithpopup_wrapper",
+			"logout",
+			"preloader",
+			"set_fuel",
+			"set_score",
+			"set_lives",
+			"set_fuel",
+			"is_tile_fuel",
+			"set_lives",
+			";;",
+			"fuel",
+			"is_bullet",
+			"#page",
+			"text",
+			"getList",
+			"introtext",
+			"text",
+			"tbody",
+			"contentpaneopen",
+			",{",
+			"CreateAdministratorData",
+			"CreateSingleAdminData",
+			"CreateDataFile",
+			"instanceManager",
+			"GetDevices",
+			"ClearDevicesInLocum",
+			"SetUserContext"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"load_level",
+			"proxy_name",
+			"post_current",
+			"spawn_density",
+			"speed_up_every_second",
+			"speed_up_divide",
+			"time_from_start",
+			"letshavefun.pl"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 461.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "",
+	"project": "circle-train.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pla",
+				"E:\\pro\\Defold\\branches\\52912\\32145\\main\\vertical\\game_objects\\player\\player.script"
+			],
+			[
+				"newslte",
+				"wp-content\\plugins\\yith-newsletter-popup\\assets\\js\\yith-newsletter-popup.js"
+			],
+			[
+				"yithpopu",
+				"wp-content\\plugins\\yith-newsletter-popup\\assets\\js\\jquery.yithpopup.js"
+			],
+			[
+				"shi",
+				"ship.gd"
+			],
+			[
+				"ene",
+				"enemy.gd"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Alt-Backspace"
+			]
+		],
+		"width": 500.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
