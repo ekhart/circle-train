@@ -339,6 +339,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Assets/game/core.clj",
+			"settings":
+			{
+				"buffer_size": 388,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "(ns game.core)"
+			}
+		},
+		{
+			"file": "Assets/hard/input.clj",
+			"settings":
+			{
+				"buffer_size": 2289,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -363,10 +381,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 311.0,
-		"last_filter": "ja",
+		"height": 196.0,
+		"last_filter": "unit",
 		"selected_items":
 		[
+			[
+				"unit",
+				"SublimeREPL: Clojure Unity"
+			],
+			[
+				"termina",
+				"Preferences: Terminal Settings – User"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
 			[
 				"ja",
 				"Set Syntax: JavaScript"
@@ -410,10 +440,6 @@
 			[
 				"set syntax cloj",
 				"Set Syntax: Clojure (Unity)"
-			],
-			[
-				"ip",
-				"Package Control: Install Package"
 			],
 			[
 				"snippet",
@@ -548,13 +574,14 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 432.0
+		"width": 360.0
 	},
 	"console":
 	{
 		"height": 419.0,
 		"history":
 		[
+			"ls",
 			"git s",
 			"import urllib.request,os,hashlib; h = '261dd1222b4693ce6d4f85f9c827ac06' + '6d5ab8ebdd020086947172a8a1356bb6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
@@ -570,10 +597,14 @@
 	},
 	"expanded_folders":
 	[
-		"/E/code/unity/circle-train"
+		"/E/code/unity/circle-train",
+		"/E/code/unity/circle-train/Assets",
+		"/E/code/unity/circle-train/Assets/hard"
 	],
 	"file_history":
 	[
+		"/C/Users/Ekh/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Ekh/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
 		"/C/Users/Ekh/Downloads/League-of-Angels-2-Hack-Cheat-Codes/Read Me !.txt",
 		"/C/Users/Ekh/Dysk Google/Texpand Backup - 2017-03-14 22 46.txt",
 		"/C/Users/Ekh/.emacs.d/elpa/cider-0.14.0/cider.el",
@@ -699,9 +730,7 @@
 		"/C/Users/Ekh/Evernote/Databases/Attachments/subtitles (1).vtt",
 		"/E/pro/Defold/branches/52912/32145/vertical/vertical/car/car.script",
 		"/E/pro/Defold/branches/52912/32145/vertical/vertical/car/car.go",
-		"/C/Users/Ekh/Downloads/wp-config.php",
-		"/C/Users/Ekh/Downloads/wp-settings.php",
-		"/C/Users/Ekh/Downloads/bluefres_letshavefun.sql"
+		"/C/Users/Ekh/Downloads/wp-config.php"
 	],
 	"find":
 	{
@@ -864,8 +893,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Assets/game/core.clj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"auto_name": "(ns game.core)",
+							"syntax": "Packages/Clojure/Clojure.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/hard/input.clj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Clojure/Clojure.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -875,7 +963,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -977,7 +1065,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 176.0,
 	"status_bar_visible": true,
 	"template_settings":
