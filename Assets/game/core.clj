@@ -2,10 +2,12 @@
 	(use 
 		arcadia.core
 		arcadia.linear
-		hard.core))
+		hard.core
+		hard.input))
+
 
 (defn handle-input [o]
-	(log "handle-input"))
+	(if (key? "a") (log "left")))
 
 (defn start-game [o]
 	(clear-cloned!)
