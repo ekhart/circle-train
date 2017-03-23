@@ -11,6 +11,9 @@
 	(if (key? "a") (rotate! o (v3 0 (- pspeed) 0)))
 	(if (key? "d") (rotate! o (v3 0 pspeed 0))))
 
+(defn ring-update [o]
+	(local-scale! o (v3* (local-scale o) 1.05)))
+
 (defn make-ring [pattern]
 	(let [ring (clone! :empty)]
 		(dorun
@@ -21,7 +24,8 @@
 							(rotate! (clone! :segment)
 								(v3 0 (* i 60) 0))
 							ring)))
-				pattern))))
+				pattern))
+		(hook+ ring :update #'game.core/ring-update)))
 
 (defn start-game [o]
 	(clear-cloned!)
