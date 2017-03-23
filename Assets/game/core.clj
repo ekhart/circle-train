@@ -12,13 +12,16 @@
 	(if (key? "d") (rotate! o (v3 0 pspeed 0))))
 
 (defn make-ring [pattern]
-	(dorun
-		(map-indexed 
-			(fn [i s]
-				(if (= s 1)
-					(rotate! (clone! :segment)
-						(v3 0 (* i 60) 0))))
-			pattern)))
+	(let [ring (clone! :empty)]
+		(dorun
+			(map-indexed 
+				(fn [i s]
+					(if (= s 1)
+						(parent! 
+							(rotate! (clone! :segment)
+								(v3 0 (* i 60) 0))
+							ring)))
+				pattern))))
 
 (defn start-game [o]
 	(clear-cloned!)
