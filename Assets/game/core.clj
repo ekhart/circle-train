@@ -31,12 +31,19 @@
 		(hook+ ring :update #'game.core/ring-update)
 		(timeline* (wait 4) #(destroy ring))))
 
+(defn collide [o c]
+	(log c))
+
 (defn start-game [o]
 	(clear-cloned!)
 	(clone! :camera)
 	(clone! :sun)
-	(let [player (clone! :player)]
-		(hook+ player :update #'game.core/handle-input)))
+	(let [player (clone! :player)
+				ball (first (children player))]
+		(hook-clear player :update)
+		(hook-clear ball :on-trigger-enter)
+		(hook+ player :update #'game.core/handle-input)
+		(hook+ ball :on-trigger-enter #'game.core/collide)))
 
 (start-game nil)
 
