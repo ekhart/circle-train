@@ -3,9 +3,11 @@
 		arcadia.core
 		arcadia.linear
 		hard.core
-		hard.input))
+		hard.input
+		tween.core))
 
 (def pspeed 6)
+(def intesity 1)
 
 (defn handle-input [o]
 	(if (key? "a") (rotate! o (v3 0 (- pspeed) 0)))
@@ -15,7 +17,8 @@
 	(local-scale! o (v3* (local-scale o) 1.05)))
 
 (defn make-ring [pattern]
-	(let [ring (clone! :empty)]
+	(let [pattern (if (nil? pattern) [0 0 0 0 0 0] pattern)
+				ring (clone! :empty)]
 		(dorun
 			(map-indexed 
 				(fn [i s]
@@ -32,11 +35,22 @@
 	(clone! :camera)
 	(clone! :sun)
 	(let [player (clone! :player)]
-		(hook+ player :update #'game.core/handle-input))
-	(make-ring [1 0 1 0 1 0]))
+		(hook+ player :update #'game.core/handle-input)))
 
 (start-game nil)
 
+(def level1
+	[nil
+	[1 0 1 0 1 0]
+	nil
+	[0 1 1 1 0 0]
+	[1 0 1 0 1 0]])
+
+(timeline* :loop
+	(wait (* intesity 0.33))
+	#(do (make-ring (rand-nth level1)) nil))
+
+; (parent! (.transform (the sun)) (the camera))
 
 ; (clone! :segment)
 
