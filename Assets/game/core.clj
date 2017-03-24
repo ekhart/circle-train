@@ -28,7 +28,8 @@
 								(v3 0 (* i 60) 0))
 							ring)))
 				pattern))
-		(hook+ ring :update #'game.core/ring-update)))
+		(hook+ ring :update #'game.core/ring-update)
+		(timeline* (wait 4) #(destroy ring))))
 
 (defn start-game [o]
 	(clear-cloned!)
