@@ -56,7 +56,7 @@ namespace Arcadia
 			RT.load("arcadia/compiler");
 			var userNameSpaces = (IList)RT.var("arcadia.internal.editor-interop", "all-user-namespaces-symbols").invoke();
 
-			if (target == BuildTarget.StandaloneOSXUniversal || target == BuildTarget.StandaloneOSXIntel || target == BuildTarget.StandaloneOSXIntel64)
+			if (target == BuildTarget.StandaloneOSX || target == BuildTarget.StandaloneOSXIntel || target == BuildTarget.StandaloneOSXIntel64)
 			{
 				ResetProgress(userNameSpaces.Count + 3);
 				CompileNamespacesToFolder(userNameSpaces, Initialization.VariadicPathCombine(pathToBuiltProject, "Contents", "Resources", "Data", "Managed"));
